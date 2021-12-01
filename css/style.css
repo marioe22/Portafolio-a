@@ -1,0 +1,85 @@
+
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, p, ol, ul{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+ul{
+    list-style: none;
+}
+a, a:hover{
+    
+    text-decoration: none;
+}
+body{
+    background: white;
+    font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: white;
+    padding: 10px 0;
+    overflow: hidden;
+    transition: all 0.7s;
+    z-index: 9;
+
+   
+    
+}
+.header .menu ul{
+    display: flex;
+    justify-content: center;
+        
+}
+.header .menu li{
+    padding: 12px;
+    
+}
+.header .menu a{    
+    font-size: 1.2rem;
+    color:#868686;
+    padding: 8px;
+    display: flex;
+    text-transform: uppercase;
+}
+.header .menu a:hover{
+    color: #2c3135;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    width: 215px;
+    height: 215px;
+    overflow: hidden;
+  border-radius: 100%;
+  border: 3px solid black;
+  }
+  .img_circular {
+    display: flex;
+    height: 100%;
+    width: 100%;
+   
+  }
+  .back{
+      background: rgb(31, 31, 31);
+      height: 200px;
+  }
+  .titulo{
+      color: white;
+      font-size: 30px;
+      text-align: center;
+      
+  }
+  
